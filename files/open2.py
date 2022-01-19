@@ -19,3 +19,5 @@ print(len(lista))
 
 for n in lista:
     print(n)
+
+archivo.close()
