@@ -4,6 +4,7 @@
 # a = append
 
 archivo = open('archivo1.txt', 'a')
+
 dedicacion = input("Dedicación: ")
 empresa = input("Empresa: ")
 idioma = input("Idioma: ")
