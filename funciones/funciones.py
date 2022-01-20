@@ -5,16 +5,20 @@
 # __name__
 # main()
 
-def despedida():
-    print("Adiós")
+# argumentos:
 
-def saludo():
-    print("Hola")
+def despedida(nombre):
+    print("Adiós, {}!".format(nombre))
+
+def saludo(nombre, edad):
+    print("Hola {}, tienes {} años".format(nombre, edad))
 
 def main():
-    pass
+    nombre = input("Nombre: ")
+    edad = int(input("Edad: "))
+    segundo_nombre = input("Segundo nombre: ")
+    saludo(nombre, edad)
+    despedida(segundo_nombre)
 
 if __name__ == '__main__':
     main()
-    saludo()
-    despedida()
