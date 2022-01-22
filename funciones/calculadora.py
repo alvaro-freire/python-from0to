@@ -43,7 +43,7 @@ def main():
                 sub(v1, v2)
             elif opcion == 3:
                 divide(v1, v2)
-            elif opcion == 4:
+            else:
                 multiply(v1, v2)
             
 
