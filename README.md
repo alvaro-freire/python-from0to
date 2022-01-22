@@ -2,4 +2,4 @@
 
 ## From 0 to ...?
 
-> who knows?
+> If u read this, u r gay.
